@@ -1,6 +1,6 @@
 ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
 
-ef alphabetize(arr)
+def alphabetize(arr)
   # code here
   arr.sort_by do |sent|
     temp = sent.split("")
